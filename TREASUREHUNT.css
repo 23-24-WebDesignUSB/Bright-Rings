@@ -1,0 +1,31 @@
+.div1 {
+	margin-left: 500px;
+	margin-right: 500px;
+	text-align: center;
+	color: darkblue;
+	border: solid;
+	background-color: lightcyan;
+	/* Transitions require defining a property that will change AND a duration for how long it takes to change. 
+	By default, the transition does not create the change. However, if that property WERE to change, the
+	transition defines how long it takes. */
+	transition: color 0.5s, font-size 0.6s; 
+}
+
+.div1:active {
+	color: red;
+	font-size: 20px;
+}
+
+.div2 {
+	margin-left: 1010px;
+	text-align: center;
+	color: white;
+	border: solid;
+	background-color: white;
+	transition: color 0.5s, font-size 0.6s;
+}
+
+.div2:active {
+	color: red;
+	background-color: lightcyan;
+	font-size: 20px;
