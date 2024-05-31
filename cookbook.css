@@ -1,0 +1,28 @@
+.recps {
+	font-size: 30px;
+	font-family: Comic Sans MS;
+}
+
+.dir {
+	font-size: 35px;
+	font-family: "Times New Roman", Times, serif;
+}
+
+.input {
+	font-size: 30px;
+	font-family: "Times New Roman", Times, serif;
+}
+
+body {
+	background-color: lightyellow;
+}
+
+.fart {
+	text-align: center;
+	font-style: strong; 
+	font-family: Comic Sans MS;
+	border: solid 3px;
+	padding: 50px;
+	background-image: url(goofy.jpeg);
+	background-position: center;
+}
