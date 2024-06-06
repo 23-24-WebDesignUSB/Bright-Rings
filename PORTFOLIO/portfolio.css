@@ -1,0 +1,116 @@
+h1 {
+
+	text-align: center;
+	font-style: strong; 
+	font-family: Comic Sans MS;
+	border: solid 3px;
+	padding: 100px;
+	background-image: url(poopsci.jpeg);
+	background-position: center; 
+	margin-right: 6% ;
+	margin-left: 6% ;
+	color: white;
+	-webkit-text-stroke: 2px black;
+	font-size: 50px;
+	border-color: black;
+	animation-name: head;
+	animation-duration: 2.65s;
+	animation-iteration-count: infinite;
+}
+
+/* This is just my go-to for headers; it has nice text with outline on the letters, and a fun background image. It's also positioned in the center and
+the marigins are adjusted accordingly */
+
+
+@keyframes head {
+	0% {font-size: 35px; color: purple;}
+	25% {font-size: 40px; color: red;}
+	50% {font-size: 45px; color: hotpink;}	
+	75% {font-size: 40px; color: red;}
+	100% {font-size: 35px; color: purple;}
+}
+
+/* This is the animation for the text in the header. It makes the text bigger and smaller, and changes the color */
+
+
+
+table, th, tr, td {border: 2px solid black; border-collapse: collapse; background-color: white; text-align: center; font-family: 'Helvetica', 'Arial', sans-serif;}
+th, td {padding: 10px}
+table {width: 50%; margin-left: 25%; margin-right: 25%}
+
+/* This is the table. It's just a fancier way for me to incorporate inbedded links that go to various parts of the web page. So cool! */
+
+
+
+body {
+
+	background-color: #A6FBB2;
+}
+
+
+.phead {
+
+	font-family: 'Helvetica', 'Arial', sans-serif;
+	font-weight: bold;
+	font-size: 30px;
+}
+
+
+.blurryimg1 { 
+	filter: blur(10px);
+	transition: filter 0.5s linear;
+	width: 600px;
+	height: 300px;
+	border: solid 2px;
+}
+
+.blurryimg1:hover {
+	filter: blur(0px)
+} 
+
+/* This is my brand new transition!!! When you hover on the image, it unblurs itself!!! filter was also a new thing for me, but now I know how to use it!*/
+
+
+.card {
+  background-color: white;
+  padding: 10px;
+  border: 2px solid;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+ 
+.star {
+  font-size: 10vh;
+  cursor: pointer;
+}
+ 
+.one {
+  color: rgb(255, 255, 0);
+}
+ 
+.two {
+  color: rgb(255, 255, 0);
+}
+ 
+.three {
+  color: rgb(255, 255, 0);
+}
+ 
+.four {
+  color: rgb(255, 255, 0);
+}
+ 
+.five {
+  color: rgb(255, 255, 0);
+}
+
+/* This is my new css for my new javascript!! It's essentially another transition, where if the star is pressed, it changes to yellow to indicate that it's been activated.
+The card is just the place where all the text goes, which I made because it was ugly without it. */
+
+
+p {
+	font-family: 'Helvetica', 'Arial', sans-serif;
+	font-size: 27px;
+}
+
+/* And this is just the way I've organized anything with the paragraph element. Lit! */
